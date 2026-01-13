@@ -1,0 +1,67 @@
+@font-face {
+
+  font-family: "Lato";
+
+  src: 
+
+        url("https://powellnademo.sharepoint.com/sites/homedemo/SiteAssets/SitePages/Lato-Regular.ttf") format("truetype");
+
+}
+
+/* Quick Links cards: softer/lower shadow + border + hover border */
+#master .pow-quick-links-icon a.pow-hover-scale-grow-1 {
+  /* Lower/softer shadow (smaller blur + less spread + lower alpha) */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14) !important;
+
+  /* 1px border */
+  border: 1px solid #e5e7eb !important;
+}
+
+/* Hover: change border color */
+#master .pow-quick-links-icon a.pow-hover-scale-grow-1:hover {
+  border-color: #0081a8 !important;
+}
+
+
+/* Quick Links cards — title styling only */
+.pow-quick-links-icon .title {
+  font-family: Lato !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;         /* slightly larger */
+  line-height: 1.25 !important;
+  letter-spacing: 0.5px !important;
+  text-align: center !important;
+}
+
+/* Force TWO lines even when Powell uses pow-max-line-1 */
+.pow-quick-links-icon .title.pow-max-line-1,
+.pow-quick-links-icon .title.pow-max-line-2 {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2 !important;
+  overflow: hidden !important;
+  white-space: normal !important;
+}
+
+/* Taller cards */
+.pow-quick-links-icon [responsive-height] {
+  min-height: 140px !important;
+}
+
+/* Very large image */
+.pow-quick-links-icon .pow-media-xxs {
+  width: 88px !important;
+  height: 88px !important;
+}
+
+/* Image behavior */
+.pow-quick-links-icon .container-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
+
+/* Tight padding */
+.pow-quick-links-icon .pow-padding-md {
+  padding: 4px !important;
+}
