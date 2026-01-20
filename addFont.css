@@ -1,0 +1,13 @@
+//Welcome webpart
+@font-face {
+  font-family: "Inter";
+  src: 
+        url("https://cityofdublin.sharepoint.com/sites/int-news/Shared%20Documents/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+ 
+.pow-welcome-component-content-title {
+    font-family: Inter, "Segoe UI",
+                 Arial, sans-serif !important;
+    font-size: 40px !important;
+    font-weight: 600;
+}
