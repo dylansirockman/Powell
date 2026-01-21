@@ -1,12 +1,4 @@
-@font-face {
-
-  font-family: "Lato";
-
-  src: 
-
-        url("https://powellnademo.sharepoint.com/sites/homedemo/SiteAssets/SitePages/Lato-Regular.ttf") format("truetype");
-
-}
+/* Uses the 'Tiles with icons' categorized app display */
 
 /* Quick Links cards: softer/lower shadow + border + hover border */
 #master .pow-quick-links-icon a.pow-hover-scale-grow-1 {
@@ -25,7 +17,7 @@
 
 /* Quick Links cards — title styling only */
 .pow-quick-links-icon .title {
-  font-family: Lato !important;
+  font-family: Lato !important;      /* replace this */
   font-weight: 600 !important;
   font-size: 18px !important;         /* slightly larger */
   line-height: 1.25 !important;
@@ -64,4 +56,5 @@
 /* Tight padding */
 .pow-quick-links-icon .pow-padding-md {
   padding: 4px !important;
+
 }
