@@ -1,0 +1,14 @@
+/* Configuration that needs to be set up for this to work correctly;
+
+    - Copy and import contentBuilderHomeNews.txt into the content builder webpart
+    - News slider height on each device needs to be set to 440px (configured on the webpart itself)   */
+
+.pow-feed-grid {
+    grid-gap: 4px;
+}
+
+@media (min-width: 651px) {
+  #master .pow-feed-grid {
+    grid-auto-rows: 110px !important;
+  }
+}
