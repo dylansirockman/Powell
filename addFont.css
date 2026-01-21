@@ -1,4 +1,4 @@
-//Welcome webpart
+/* ttf file needs to be uploaded to the SharePoint site to be referenced */
 @font-face {
   font-family: "Inter";
   src: 
@@ -10,4 +10,5 @@
                  Arial, sans-serif !important;
     font-size: 40px !important;
     font-weight: 600;
+
 }
