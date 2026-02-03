@@ -1,0 +1,9 @@
+.wrapper-topnav-standard .second-level-container .second-level-megamenu .container-item .megamenu-description-container {
+    background-image: url('https://tapestrytelehealth.sharepoint.com/sites/Intranet-Home/Tapestry%20Image%20Library/tapestryhealth_83.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 500px;
+    
+}
