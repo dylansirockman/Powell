@@ -1,0 +1,12 @@
+@media (min-width: 961px) {
+    .btn-apps-color:after {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-image: url(rule1.svg);
+    }
+    
+    .btn-apps-color .btn-apps-row {
+        opacity: 0;  /* Hide the default colored squares */
+    }
+}
