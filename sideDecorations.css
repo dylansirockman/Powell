@@ -1,0 +1,21 @@
+/* SVG Side decorations */
+
+.page_home .CanvasComponent [data-automation-id="CanvasLayout"] > div:nth-child(3) {
+    position: relative;
+}
+
+.page_home .CanvasComponent [data-automation-id="CanvasLayout"] > div:nth-child(3):before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 1vw;
+    width: 17vw;
+    height: 17vw;
+    transform: translateY(-60%);
+    background-image: url('https://cityofdublin.sharepoint.com/sites/int-home/SiteAssets/Golfer.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    pointer-events: none;
+    z-index: 1;
+}
